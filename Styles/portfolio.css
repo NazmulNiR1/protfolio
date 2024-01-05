@@ -5,6 +5,15 @@ body{
 .text-primary{
     color:#FD6E0A ;
 }
+main section{
+    margin-top: 130px;
+}
+.section-taitle{
+    color:, #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
 /* button style */
 .btn-primary {
     border-radius: 5px;
@@ -52,14 +61,15 @@ nav a{
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner .profile-pic
-{width: 500px;
-}
+    {width: 500px;
+    }
 .banner-greating{
-font-size: 45px;
-color: #474747;
-margin-bottom: 0;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
 }
 .banner-title{
     font-size: 85px;
@@ -72,4 +82,70 @@ margin-bottom: 0;
     font-size: 18px;
     font-weight: 400;
     margin-top :0px;
+}
+.banner-contain{
+    max-width: 500px;
+}
+/* main section start */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px ;
+}
+.section-decripstion{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+
+}
+.about-info-contanier{
+    display: flex;
+    justify-content: space-around;
+}
+.infio-titel {
+text-align: center;
+}
+.info-decripstiopn{
+    text-align: center;
+}
+#what-i-do{
+    padding: 30px 150px;
+    
+}
+.section-taitel{
+    text-align: center;
+}
+/* about section*/
+
+
+/* skil*/
+.skill-cont{
+    display: flex;
+    padding: 30px;
+    gap: 15px;
+}
+.skill-decp{ 
+    padding: 30px;
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.section-tit{
+    text-align: center;
+}
+.resume-colum-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+    
 }
